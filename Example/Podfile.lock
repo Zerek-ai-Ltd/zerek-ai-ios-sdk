@@ -1,0 +1,34 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.9)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - SnapKit (5.0.1)
+  - ZerekAI-iOS (1.0.0):
+    - SDWebImage (~> 5.10.4)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - SDWebImage (~> 5.10.4)
+  - SnapKit
+  - ZerekAI-iOS (from `./..`)
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - SDWebImage
+    - SnapKit
+
+EXTERNAL SOURCES:
+  ZerekAI-iOS:
+    :path: "./.."
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  ZerekAI-iOS: ebf1f74e1e6b20ddbf88b0a6c6940417d0f80061
+
+PODFILE CHECKSUM: 6bc481c693ad787591f6e27f46bf05b3e40386a4
+
+COCOAPODS: 1.11.2

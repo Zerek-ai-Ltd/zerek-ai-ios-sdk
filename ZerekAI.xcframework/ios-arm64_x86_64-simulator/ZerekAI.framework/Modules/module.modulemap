@@ -1,0 +1,11 @@
+framework module ZerekAI {
+  umbrella header "ZerekAI.h"
+
+  export *
+  module * { export * }
+}
+
+module ZerekAI.Swift {
+    header "ZerekAI-Swift.h"
+    requires objc
+}
